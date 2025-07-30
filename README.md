@@ -2,7 +2,7 @@
 
 **Mediverse Next** is a modern, scalable, and AI-ready doctor appointment platform built with **Next.js**, **Tailwind CSS**, **Neon (PostgreSQL)**, **Shadcn UI**, and **Vonage Video API**. It enables real-time virtual consultations, seamless appointment scheduling, and role-based access for patients, doctors, and admins.
 
-Live Demo (coming soon) • [GitHub Repo](https://github.com/Vijaykalyan23/mediverse-next)
+
 
 ---
 
@@ -31,24 +31,6 @@ Live Demo (coming soon) • [GitHub Repo](https://github.com/Vijaykalyan23/mediv
 | Auth            | (Add: NextAuth / Clerk / Custom)     |
 
 ---
-
-## 📁 Project Structure (Simplified)
-
-mediverse-next/
-├── app/ # App routes (auth, admin, doctor, etc.)
-├── components/ # Shared and UI components
-├── actions/ # Server-side logic (appointments, doctor, admin)
-├── hooks/ # Custom hooks
-├── lib/ # Utilities, Prisma client, schema, etc.
-├── prisma/ # Prisma schema & migrations
-├── public/ # Static assets
-├── middleware.js # Route guards
-├── next.config.mjs # Next.js config
-└── package.json # Dependencies & scripts
-
-yaml
-Copy
-Edit
 
 ---
 
@@ -100,10 +82,8 @@ Edit
 npm run dev
 Visit http://localhost:3000
 
-📸 Screenshots
-(You can add screenshots here after UI is polished)
-
-🛠 Upcoming Enhancements
+```
+# 🛠 Upcoming Enhancements
 📧 Email/SMS reminders
 
 🧠 AI-powered doctor recommendations
@@ -113,40 +93,5 @@ Visit http://localhost:3000
 📊 Admin analytics dashboard
 
 🌍 Deployment with Vercel and Neon
-
-🤝 Contributing
-Contributions, issues, and feature requests are welcome!
-Feel free to open a PR or submit an issue.
-
-👨‍💻 Author
-Vijay Kalyan
-🔗 GitHub
-
-📄 License
-This project is licensed under the MIT License – see the LICENSE file for details.
-
-yaml
-Copy
-Edit
-
----
-
-Would you like me to:
-- Add **markdown badges** for tech/tools?
-- Generate a **repository banner**?
-- Or help you create **GitHub issues** for upcoming features?
-
-
-
-
-
-
-
-
-Ask ChatGPT
-
-
-
-Tools
 
 
